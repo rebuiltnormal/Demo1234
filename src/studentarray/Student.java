@@ -5,7 +5,7 @@
 
 package studentarray;
 
-/**
+/**this is a model class for Student
  *
  * @author Megha Patel
  */
