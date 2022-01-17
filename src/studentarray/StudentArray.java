@@ -20,11 +20,11 @@ public class StudentArray {
      //   Student s1=new Student();
         Scanner input=new Scanner(System.in);
         
-        System.out.println("name: "+s1.getName());
         
         Student[] studList=new Student[3];// array of student objects
         for(int i=0; i<studList.length;i++)
         {
+                studList[i]=new Student();
                  System.out.println("Enter student name: ");
                  studList[i].setName(input.nextLine());
       
