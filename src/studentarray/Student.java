@@ -7,7 +7,7 @@ package studentarray;
 
 /**this is a model class for Student
  *
- * @author Megha Patel
+ * @author Megha Patel,2022
  */
 public class Student {
     private String name;
