@@ -8,7 +8,7 @@ package studentarray;
 import java.util.Scanner;
 
 /**
- *
+ * this class creates array of student object and iterate through it
  * @author Megha Patel
  */
 public class StudentArray {
@@ -17,7 +17,6 @@ public class StudentArray {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     //   Student s1=new Student();
         Scanner input=new Scanner(System.in);
         
         
