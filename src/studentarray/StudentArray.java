@@ -17,14 +17,23 @@ public class StudentArray {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Student s1=new Student();
+     //   Student s1=new Student();
         Scanner input=new Scanner(System.in);
-        System.out.println("Enter student name: ");
-        s1.setName(input.nextLine());
         
         System.out.println("name: "+s1.getName());
         
-        //Student[] studList=new Student[5];// array of student objects
+        Student[] studList=new Student[3];// array of student objects
+        for(int i=0; i<studList.length;i++)
+        {
+                 System.out.println("Enter student name: ");
+                 studList[i].setName(input.nextLine());
+      
+        }
+     for(int i=0; i<studList.length;i++)
+        {
+                 System.out.println("student name: "+studList[i].getName());
+                  
+        }
     
     }
     
