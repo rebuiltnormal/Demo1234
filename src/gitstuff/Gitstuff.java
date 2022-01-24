@@ -7,13 +7,13 @@ package gitstuff;
  */
 public class Gitstuff {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int ree = 4;
-        String Nine = "ten";
-        // TODO code application logic here
+        String nine = "ten";
+        
+    }
+    public String toString() {
+        return super.toString(); 
     }
 
 }
