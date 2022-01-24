@@ -12,6 +12,7 @@ public class Gitstuff {
      */
     public static void main(String[] args) {
         int ree = 4;
+        String Nine = "ten";
         // TODO code application logic here
     }
 
